@@ -26,3 +26,4 @@ export default function CartColumn() {
         </div>
     )
 }
+// my cart header after adding items to my cart

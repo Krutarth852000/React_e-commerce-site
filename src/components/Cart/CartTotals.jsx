@@ -8,3 +8,4 @@ export default function CartTotals({value}) {
         </div>
     )
 }
+// increase and decrease cart totals according to the number of qty

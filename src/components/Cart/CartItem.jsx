@@ -39,3 +39,4 @@ export default function CartItem({item, value}) {
             </div>
     )
 }
+// cart link configuration

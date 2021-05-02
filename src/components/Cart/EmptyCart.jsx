@@ -11,3 +11,4 @@ export default function EmptyCart() {
         </div>
     )
 }
+// set an empty cart by default

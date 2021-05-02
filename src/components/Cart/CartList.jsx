@@ -12,3 +12,4 @@ export default function CartList({value}) {
         </div>
     )
 }
+// render my cart
