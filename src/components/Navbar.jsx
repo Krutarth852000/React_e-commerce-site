@@ -6,7 +6,8 @@ import {ButtonContainer} from './Button';
 export default class Navbar extends Component {
     render() {
         return (
-           <NavWraper className= "navbar navbar-expand-sm navbar-dark px-sm-5">
+           <NavWraper className="navbar navbar-expand-sm navbar-dark px-sm-5">
+              
                <Link to='/'>
                     <img src={navLogo} alt="store" className="navbar navbar-brand"/> 
                </Link>
@@ -25,6 +26,7 @@ export default class Navbar extends Component {
                         my Cart
                    </ButtonContainer>
                </Link>
+              
            </NavWraper>
         )
     }
@@ -36,4 +38,5 @@ background: var(--mainBlue);
     font-size: 1.3rem;
     text-transform: capitalize;
 }
+
 `;
